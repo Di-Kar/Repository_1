@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collab</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        <p>
+	    <label for="userid">User_ID</label>
+	    <input type="text" name="userid">
+	</p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    
+</body>
+</html>
